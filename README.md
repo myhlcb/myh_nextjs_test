@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+### learn
+* pages 和 public直接访问
+* pages/api里面是服务器代码
+### 生命周期
+* getServerSideProps // 每次发起页面请求执行，每次页面刷新都会重新执行
+* getStaticProps //页面build执行,只执行一次
