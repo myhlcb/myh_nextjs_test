@@ -35,9 +35,11 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-### learn
+### 路由
 * pages 和 public直接访问
+* [id]{.js,.ts,.jsx,.tsx}表示动态路由
 * pages/api里面是服务器代码
 ### 生命周期
 * getServerSideProps // 每次发起页面请求执行，每次页面刷新都会重新执行
 * getStaticProps //页面build执行,只执行一次
+* getStaticPaths
