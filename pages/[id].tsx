@@ -16,7 +16,7 @@ export default function List(props: any) {
       <div>
         <h2>{data.name}</h2>
         <div>{data.height}</div>
-        <Image src={pic} width={400} height={200} />
+        <Image src={pic} width={400} height={200} alt={''} />
       </div>
     </>
   );
